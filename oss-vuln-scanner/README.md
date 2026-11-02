@@ -8,11 +8,10 @@ and don't re-query unchanged packages.
 
 ## Why this project exists
 
-Sonatype's core product is software composition analysis (SCA) - this
-is a deliberately small version of the same idea, built to demonstrate
-real understanding of dependency vulnerability scanning, package
-ecosystems (npm/Maven), and the OSS security concepts referenced
-throughout their job postings (SBOM, SCA, vulnerability databases).
+Software composition analysis (SCA) - finding known vulnerabilities in the open-source packages a project
+depends on - is a core part of software supply chain security. This is a deliberately small version of the idea,
+built as a personal learning project to practise dependency vulnerability scanning, package ecosystems
+(npm/Maven) and the concepts around SBOMs, SCA and vulnerability databases.
 
 ## Setup
 

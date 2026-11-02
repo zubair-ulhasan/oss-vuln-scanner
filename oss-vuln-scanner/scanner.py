@@ -7,10 +7,9 @@ queries the OSV.dev vulnerability database for known CVEs against
 each dependency, prints a report, and caches results in a local
 SQLite database so repeat scans don't re-query unchanged packages.
 
-This is a scaled-down version of what Sonatype's own products do -
-built specifically to demonstrate hands-on understanding of software
-supply chain security concepts (SCA, vulnerability databases, package
-ecosystems) for support/solutions engineering roles.
+This is a scaled-down version of what software composition analysis (SCA)
+tools do - a personal learning project to practise supply chain security
+concepts (SCA, vulnerability databases, package ecosystems).
 
 Usage:
     python scanner.py path/to/package.json
